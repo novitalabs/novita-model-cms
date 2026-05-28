@@ -64,5 +64,56 @@
     }
   ],
   "apiDocsHref": "/docs/guides/model-apis-overview",
-  "apiDocsLabel": "Read API docs"
+  "apiDocsLabel": "Read API docs",
+  "models": [
+    {
+      "id": "wan-v2.6",
+      "name": "wan-v2.6",
+      "displayName": "Wan v2.6",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [
+        [
+          "CMS managed model record"
+        ]
+      ],
+      "link": "/models/wan/wan-v2.6",
+      "isNew": true
+    },
+    {
+      "id": "wan-v2.5",
+      "name": "wan-v2.5",
+      "displayName": "Wan v2.5",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [
+        [
+          "CMS managed model record"
+        ]
+      ],
+      "link": "/models/wan/wan-v2.5"
+    },
+    {
+      "id": "wan-v2.2",
+      "name": "wan-v2.2",
+      "displayName": "Wan v2.2",
+      "series": "Wan",
+      "tags": [
+        "Video Generation"
+      ],
+      "infos": [
+        [
+          "CMS managed model record"
+        ]
+      ],
+      "link": "/models/wan/wan-v2.2"
+    }
+  ],
+  "updatedAt": "2026-05-28T08:07:56.753Z"
 }

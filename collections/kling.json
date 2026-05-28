@@ -73,5 +73,59 @@
     }
   ],
   "apiDocsHref": "/docs/guides/model-apis-overview",
-  "apiDocsLabel": "Read API docs"
+  "apiDocsLabel": "Read API docs",
+  "models": [
+    {
+      "id": "kling-v2.1",
+      "name": "kling-v2.1",
+      "displayName": "Kling v2.1",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [
+        [
+          "$0.1265 /video 5s",
+          "$0.2475 /video 10s"
+        ]
+      ],
+      "link": "/models/kling/kling-v2.1",
+      "isNew": true
+    },
+    {
+      "id": "kling-v2.1-master",
+      "name": "kling-v2.1-master",
+      "displayName": "Kling v2.1 Master",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [
+        [
+          "$0.6435 /video 5s",
+          "$1.287 /video 10s"
+        ]
+      ],
+      "link": "/models/kling/kling-v2.1-master",
+      "isHot": true
+    },
+    {
+      "id": "kling-v2.0",
+      "name": "kling-v2.0",
+      "displayName": "Kling v2.0",
+      "series": "Kling",
+      "tags": [
+        "Video Generation"
+      ],
+      "infos": [
+        [
+          "CMS managed model record"
+        ]
+      ],
+      "link": "/models/kling/kling-v2.0"
+    }
+  ],
+  "updatedAt": "2026-05-28T08:07:56.751Z"
 }
