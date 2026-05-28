@@ -1,7 +1,7 @@
 {
   "seriesSlug": "image-tools",
   "heroTitle": "Image Tools",
-  "heroDescription": "Edit images with Novita AI tools for background removal, object erasing, and image upscaling through production-ready APIs.",
+  "heroDescription": "Novita AI Image Tools remove backgrounds, erase objects, and upscale images for production-ready editing workflows.",
   "seoTitle": "Image Tools | Novita AI",
   "seoDescription": "Explore Novita AI image tools for background removal, image erasing, and image upscaling. Compare API-ready image editing tools and open each model page for integration details.",
   "eyebrow": "Image Editing",
@@ -9,7 +9,7 @@
   "overviewBody": [
     "Image Tools is Novita AI's collection of API-ready image editing utilities. Instead of representing one external model family, this collection groups practical image-to-image tools for common production workflows such as removing backgrounds, erasing unwanted regions, and improving image resolution.",
     "Use this collection when the goal is not open-ended image generation, but a specific editing operation that can be integrated into product pipelines, creative automation, ecommerce workflows, or asset cleanup systems.",
-    "Each card links to a dedicated model page where developers can review the API behavior, pricing signals, and Playground entry point before implementation."
+    "Each tool links to a model page where developers can review API behavior, pricing, and Playground access before implementation."
   ],
   "lineupSections": [
     {
@@ -49,11 +49,11 @@
   "faq": [
     {
       "question": "Are Image Tools a single model family?",
-      "answer": "No. In Novita AI's current model configuration, Image Tools is a collection of image editing utilities rather than one external model family."
+      "answer": "No. Image Tools is a collection of Novita AI image editing utilities rather than one external model family."
     },
     {
       "question": "Which Image Tools are currently available on Novita AI?",
-      "answer": "The current Image Tools collection includes Image Remove Background, Image Eraser, and Image Upscaler."
+      "answer": "The collection includes Image Remove Background, Image Eraser, and Image Upscaler."
     },
     {
       "question": "How are Image Tools different from text-to-image models?",
@@ -113,5 +113,47 @@
       "infos": [],
       "link": "/models/image-tools/image-eraser"
     }
-  ]
+  ],
+  "capabilities": [
+    {
+      "title": "Background removal",
+      "description": "Remove backgrounds from source images for clean subject cutouts, product photos, and creative assets."
+    },
+    {
+      "title": "Object erasing",
+      "description": "Erase unwanted objects, marks, or distracting regions while preserving surrounding visual context."
+    },
+    {
+      "title": "Image upscaling",
+      "description": "Improve image resolution and detail for catalogs, larger displays, generated assets, and production use."
+    },
+    {
+      "title": "API-ready editing tasks",
+      "description": "Use focused endpoints for deterministic editing operations instead of open-ended image generation."
+    }
+  ],
+  "whyNovitaItems": [
+    {
+      "title": "Practical editing APIs",
+      "description": "Call focused image tools for background removal, object cleanup, and upscaling without building separate editing pipelines."
+    },
+    {
+      "title": "Easy tool selection",
+      "description": "Choose the right image operation from a concise collection instead of searching across all image models."
+    },
+    {
+      "title": "Fits production asset workflows",
+      "description": "Use Image Tools for ecommerce, marketing, marketplace, profile, and creative automation workflows."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide before integrating this model family."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs",
+  "whyNovitaTitle": "Why run Image Tools on Novita AI"
 }

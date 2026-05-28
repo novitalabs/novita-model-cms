@@ -1,9 +1,9 @@
 {
   "seriesSlug": "z-image",
   "heroTitle": "Z Image Models",
-  "heroDescription": "Explore Tongyi-MAI Z Image text-to-image models on Novita AI, including fast Z Image Turbo generation and LoRA-assisted custom image workflows.",
+  "heroDescription": "Tongyi-MAI Z Image Turbo generates photorealistic text-to-image outputs quickly, with a LoRA option for custom styles or subjects.",
   "seoTitle": "Z Image Models | Novita AI",
-  "seoDescription": "Explore Z Image models on Novita AI. Compare Z Image Turbo and Z Image Turbo LoRA text-to-image model pages for API integration.",
+  "seoDescription": "Compare Z Image Turbo and Z Image Turbo LoRA on Novita AI for fast text-to-image generation and LoRA-guided image workflows.",
   "eyebrow": "Image Generation",
   "overviewTitle": "What are Z Image models?",
   "overviewBody": [
@@ -90,5 +90,47 @@
       "infos": [],
       "link": "/models/z-image/z-image-turbo"
     }
-  ]
+  ],
+  "capabilities": [
+    {
+      "title": "Fast text-to-image generation",
+      "description": "Use Z Image Turbo for low-step prompt-to-image generation and rapid creative iteration."
+    },
+    {
+      "title": "Photorealistic visual output",
+      "description": "Generate polished images with strong prompt adherence and photorealistic rendering."
+    },
+    {
+      "title": "Bilingual prompt support",
+      "description": "Use Z Image Turbo for workflows involving English or Chinese prompts and text-aware visual generation."
+    },
+    {
+      "title": "LoRA-guided customization",
+      "description": "Use the LoRA endpoint when images should follow a custom style, subject, product, or brand identity."
+    }
+  ],
+  "whyNovitaItems": [
+    {
+      "title": "Base and LoRA endpoints together",
+      "description": "Compare the standard Z Image Turbo endpoint with the LoRA-enabled workflow from one collection page."
+    },
+    {
+      "title": "Fast API experimentation",
+      "description": "Open model pages to test prompts, review parameters, and check pricing before production use."
+    },
+    {
+      "title": "Useful for custom image products",
+      "description": "Apply Z Image Turbo to interactive generation, marketing assets, ecommerce visuals, and custom LoRA workflows."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide before integrating this model family."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs",
+  "whyNovitaTitle": "Why run Z Image on Novita AI"
 }

@@ -1,15 +1,15 @@
 {
   "seriesSlug": "minimax",
   "heroTitle": "MiniMax AI Models",
-  "heroDescription": "Explore MiniMax audio models on Novita AI for text-to-speech, voice design, music generation, and lyric creation workflows.",
+  "heroDescription": "MiniMax audio models support high-quality text-to-speech, voice design, music generation, and lyric creation workflows.",
   "seoTitle": "MiniMax AI Models | Novita AI",
-  "seoDescription": "Explore MiniMax AI models on Novita AI. Compare MiniMax Speech 2.8, voice design, music generation, and lyrics model pages for API integration.",
+  "seoDescription": "Compare MiniMax audio models on Novita AI, including Speech 2.8 HD, Speech 2.8 Turbo, Voice Design, Music, and Lyrics APIs.",
   "eyebrow": "Audio Generation",
   "overviewTitle": "What are MiniMax AI models?",
   "overviewBody": [
-    "MiniMax is a multimodal AI company with public model lines for video, speech, music, and agentic applications. In the current Novita AI multimodal configuration, this collection focuses on MiniMax audio models rather than Hailuo video models.",
-    "The enabled MiniMax lineup includes Speech 2.8 HD and Turbo for synchronous or asynchronous text-to-speech, MiniMax Voice Design for creating custom voices from text descriptions, and MiniMax Music and Lyrics for music creation workflows.",
-    "Use this page to choose the right MiniMax audio model and open a dedicated model page for API parameters, pricing, and Playground testing."
+    "MiniMax is a multimodal AI company with public model lines for speech, music, video, and agentic applications. This Novita AI collection focuses on the MiniMax audio models currently available for API integration.",
+    "The lineup includes Speech 2.8 HD and Turbo for synchronous or asynchronous text-to-speech, MiniMax Voice Design for creating custom voices from text descriptions, and MiniMax Music and Lyrics for music creation workflows.",
+    "Use this page to choose the right MiniMax audio model, then open a model page for parameters, pricing, and Playground testing."
   ],
   "lineupSections": [
     {
@@ -45,15 +45,15 @@
   "faq": [
     {
       "question": "What MiniMax models are available on Novita AI?",
-      "answer": "The current MiniMax collection includes enabled audio models: MiniMax Speech 2.8 HD and Turbo, their async variants, MiniMax Voice Design, MiniMax Music, and MiniMax Lyrics."
+      "answer": "The MiniMax collection includes Speech 2.8 HD and Turbo, their async variants, MiniMax Voice Design, MiniMax Music, and MiniMax Lyrics."
     },
     {
       "question": "When should I use MiniMax Speech HD versus Turbo?",
-      "answer": "Use HD models when output quality is the priority, and Turbo models when speed, cost, or high-volume generation is more important."
+      "answer": "Use HD models when output quality and naturalness are the priority, and Turbo models when speed, cost, or high-volume generation matters more."
     },
     {
-      "question": "Are MiniMax Hailuo video models part of this collection?",
-      "answer": "Not in the current Novita enabled multimodal configuration for this collection. MiniMax is known for Hailuo video models, but this CMS page follows the currently enabled MiniMax series entries returned by Novita config."
+      "question": "Does this collection include MiniMax video models?",
+      "answer": "This launch collection focuses on the MiniMax audio models currently exposed through Novita AI model pages."
     }
   ],
   "sourceUrls": {
@@ -159,5 +159,47 @@
       "infos": [],
       "link": "/models/minimax/minimax-speech-2.8-hd"
     }
-  ]
+  ],
+  "capabilities": [
+    {
+      "title": "Text-to-speech generation",
+      "description": "Generate spoken audio from text with HD and Turbo Speech 2.8 variants for different quality and latency needs."
+    },
+    {
+      "title": "Async and sync audio workflows",
+      "description": "Choose async endpoints for longer jobs and sync endpoints for direct request-response speech generation."
+    },
+    {
+      "title": "Voice design",
+      "description": "Create reusable custom voices from text descriptions for branded or character-driven speech workflows."
+    },
+    {
+      "title": "Music and lyrics creation",
+      "description": "Generate songs and lyrics for creative audio production, demos, and content workflows."
+    }
+  ],
+  "whyNovitaItems": [
+    {
+      "title": "Audio model choices by workflow",
+      "description": "Compare speech, voice design, music, and lyric models based on the task you need to automate."
+    },
+    {
+      "title": "Production-ready API entry points",
+      "description": "Use model pages to inspect request parameters, output behavior, pricing, and Playground tests before integration."
+    },
+    {
+      "title": "One platform for multimodal apps",
+      "description": "Combine MiniMax audio generation with Novita AI image, video, and language model APIs in the same product stack."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide before integrating this model family."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs",
+  "whyNovitaTitle": "Why run MiniMax on Novita AI"
 }

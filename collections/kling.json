@@ -1,15 +1,15 @@
 {
   "seriesSlug": "kling",
   "heroTitle": "Kling AI Models",
-  "heroDescription": "Explore Kling video generation models on Novita AI, including text-to-video and image-to-video variants for cinematic short-form video workflows.",
+  "heroDescription": "Kuaishou's Kling delivers cinematic AI video generation for text-to-video, image-to-video, and motion-controlled production workflows.",
   "seoTitle": "Kling AI Models | Novita AI",
-  "seoDescription": "Explore Kling AI models on Novita AI. Compare Kling text-to-video and image-to-video variants, model pages, API access, and pricing signals for production video generation.",
+  "seoDescription": "Compare Kling AI video models on Novita AI, including Kling 3.0, 2.5 Turbo, 2.1, and 1.6 variants for text-to-video, image-to-video, and motion control.",
   "eyebrow": "Video Generation",
   "overviewTitle": "What are Kling AI models?",
   "overviewBody": [
     "Kling is a video generation model family developed by Kuaishou for creating short cinematic clips from text prompts, source images, and guided visual references. The family is widely used for text-to-video and image-to-video workflows where motion quality, prompt alignment, subject consistency, and realistic physics matter.",
-    "On Novita AI, this collection page organizes the available Kling model variants into a single SEO-friendly model hub. Each card links to a dedicated model page where developers can review API behavior, pricing, and playground access before integrating the model into a production workflow.",
-    "Use this page to compare Kling versions, generation modes, and model-page entry points without scanning the full model library."
+    "On Novita AI, each Kling variant has a direct path to API parameters, pricing, and Playground testing so teams can validate the right model before integrating it into a production workflow.",
+    "Use this page to compare Kling versions, generation modes, and integration entry points without scanning the full model library."
   ],
   "capabilities": [
     {
@@ -21,71 +21,114 @@
       "description": "Use Kling variants for prompt-only generation, image animation, and controlled creative iteration from visual references."
     },
     {
-      "title": "Versioned model lineup",
-      "description": "Compare Kling 2.x and 1.x variants by generation mode, quality tier, and model page availability."
+      "title": "Motion and reference control",
+      "description": "Choose newer Kling variants when a shot needs motion guidance, reference-video input, or editing control beyond basic generation."
     },
     {
-      "title": "API-first integration",
-      "description": "Open an individual Kling model page for REST API examples, pricing details, and playground testing."
+      "title": "Versioned production choices",
+      "description": "Compare Kling 3.0, 2.5 Turbo, 2.1, 2.0, 1.6, and Kling-o1 variants by task type and integration fit."
     }
   ],
   "lineupSections": [
     {
-      "title": "Kling 2.x Series",
-      "description": "Kling 2.x models focus on higher-fidelity motion, stronger prompt interpretation, and more production-ready text-to-video and image-to-video generation.",
+      "title": "Kling 3.0 Series",
+      "description": "Kling 3.0 brings newer 4K video generation and motion-control workflows for higher-detail cinematic production.",
       "items": [
-        "Use Kling 2.1 and 2.1 Master when visual fidelity and cinematic motion are the priority.",
-        "Use Kling 2.0 variants for established text-to-video and image-to-video pipelines.",
-        "Open the model page for each variant to confirm supported parameters, pricing, and playground behavior."
+        "Use Kling v3.0 4K when high-resolution text-to-video or image-to-video output is the priority.",
+        "Use Kling v3.0 Motion Control when the shot needs stronger control from motion or video references.",
+        "Open each model page to confirm supported inputs, duration, resolution, pricing, and Playground behavior."
       ],
       "modelNames": [
-        "kling-v2.1",
-        "kling-v2.1-master",
-        "kling-v2.0"
+        "kling-v3.0-4k-i2v",
+        "kling-v3.0-4k-t2v",
+        "kling-v3.0-motion-control"
       ]
     },
     {
-      "title": "Kling 1.x Series",
-      "description": "Kling 1.x models remain useful for stable image-to-video and text-to-video workflows where compatibility and predictable output are more important than the newest feature set.",
+      "title": "Kling 2.6 Pro and 2.5 Turbo",
+      "description": "Kling 2.6 Pro and 2.5 Turbo variants are suited for production iteration across prompt, image, and motion-control video workflows.",
       "items": [
-        "Useful for baseline Kling generation workflows and comparison against newer 2.x models.",
-        "Best for teams that already have prompts, assets, or evaluations built around earlier Kling behavior."
+        "Use Kling 2.6 Pro when newer Pro-tier generation or motion control is required.",
+        "Use Kling 2.5 Turbo when faster text-to-video or image-to-video iteration matters.",
+        "Compare the model pages to confirm which endpoint supports the inputs required by your workflow."
       ],
       "modelNames": [
-        "kling-v1.6"
+        "kling-v2.6-pro-i2v",
+        "kling-v2.6-pro-t2v",
+        "kling-v2.6-pro-motion-control",
+        "kling-2.5-turbo-t2v",
+        "kling-2.5-turbo-i2v"
+      ]
+    },
+    {
+      "title": "Kling 2.1 and 2.0 Series",
+      "description": "Kling 2.1, 2.1 Master, and 2.0 variants cover established high-quality text-to-video and image-to-video generation.",
+      "items": [
+        "Use Kling 2.1 Master when visual fidelity and cinematic motion are the priority.",
+        "Use Kling 2.1 and 2.0 variants for established generation pipelines and compatibility with existing prompts.",
+        "Open the model page for each variant to confirm supported parameters, pricing, and playground behavior."
+      ],
+      "modelNames": [
+        "kling-v2.1-i2v-master",
+        "kling-v2.1-t2v-master",
+        "kling-v2.1-i2v",
+        "kling-v2.1-t2v",
+        "kling-v2.0-i2v",
+        "kling-v2.0-t2v"
+      ]
+    },
+    {
+      "title": "Kling-o1 and 1.x Series",
+      "description": "Kling-o1 and Kling 1.x entries support reference-video, editing, image-to-video, text-to-video, and stable baseline workflows.",
+      "items": [
+        "Use Kling-o1 when the workflow needs reference-video generation, video editing, or newer o1-style generation modes.",
+        "Use Kling 1.6 for stable baseline text-to-video and image-to-video generation.",
+        "Use these models to compare earlier Kling behavior against newer releases."
+      ],
+      "modelNames": [
+        "kling-o1-reference-video",
+        "kling-o1-edit-video",
+        "kling-o1-i2v",
+        "kling-o1-t2v",
+        "kling-v1.6-i2v",
+        "kling-v1.6-t2v"
       ]
     }
   ],
   "whyNovitaTitle": "Why run Kling on Novita AI",
   "whyNovitaItems": [
     {
-      "title": "One model API surface",
-      "description": "Access Kling alongside other image, video, and audio generation models through Novita AI."
+      "title": "One API surface for video models",
+      "description": "Access Kling alongside other image, video, and audio generation models through the same Novita AI integration path."
     },
     {
-      "title": "Model-specific SEO pages",
-      "description": "Each Kling variant links to a dedicated model page with examples, pricing, and Playground entry points."
+      "title": "Dedicated integration entry points",
+      "description": "Each Kling variant links to API examples, pricing, and Playground access so developers can test the exact model they plan to use."
     },
     {
-      "title": "Usage-based pricing",
-      "description": "Model cards use the same product configuration and pricing source as the rest of Novita AI."
+      "title": "Practical model comparison",
+      "description": "Compare generation modes, versions, and supported workflows before choosing a Kling variant for production."
     }
   ],
   "faq": [
     {
       "question": "What Kling models are available on Novita AI?",
-      "answer": "The collection page lists enabled Kling variants from Novita AI model configuration and links each model to its dedicated model page."
+      "answer": "Novita AI provides Kling 3.0, 2.6 Pro, 2.5 Turbo, 2.1, 2.0, 1.6, and Kling-o1 variants across text-to-video, image-to-video, motion-control, reference-video, and video-editing workflows."
+    },
+    {
+      "question": "Which Kling model should I start with?",
+      "answer": "Start with the newest model that matches your input mode: 4K Kling 3.0 for high-resolution generation, Kling 2.6 Pro or 2.5 Turbo for production iteration, and Kling-o1 when reference video or editing control is required."
     },
     {
       "question": "Can I use Kling through an API?",
-      "answer": "Yes. Open an individual Kling model page to review API examples, pricing, and Playground access."
+      "answer": "Yes. Open an individual Kling model page to review API examples, parameters, pricing, and Playground access before integrating it."
     }
   ],
   "guidanceLinks": [
     {
       "label": "Model APIs overview",
       "href": "/docs/guides/model-apis-overview",
-      "description": "Start with the Novita AI model API guide."
+      "description": "Start with the Novita AI model API guide before integrating this model family."
     }
   ],
   "apiDocsHref": "/docs/guides/model-apis-overview",

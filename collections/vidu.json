@@ -1,7 +1,7 @@
 {
   "seriesSlug": "vidu",
   "heroTitle": "Vidu AI Models",
-  "heroDescription": "Explore Vidu video models for text-to-video, image-to-video, reference-to-video, multi-frame, and start-end-frame video generation.",
+  "heroDescription": "Shengshu Vidu creates controllable short videos from prompts, images, references, multiple frames, and start-end frames.",
   "seoTitle": "Vidu AI Models | Novita AI",
   "seoDescription": "Explore Vidu AI models on Novita AI. Compare Vidu Q2 and Q3 text-to-video, image-to-video, reference-to-video, multi-frame, and start-end-frame workflows.",
   "eyebrow": "Video Generation",
@@ -328,5 +328,47 @@
       "infos": [],
       "link": "/models/vidu/vidu-q2-turbo-startend2video"
     }
-  ]
+  ],
+  "capabilities": [
+    {
+      "title": "Prompt and image video generation",
+      "description": "Create video clips from text prompts or source images using Vidu Q2 and Q3 variants."
+    },
+    {
+      "title": "Reference-guided consistency",
+      "description": "Use reference-to-video workflows when characters, products, or scenes need to stay recognizable across generations."
+    },
+    {
+      "title": "Frame-controlled motion",
+      "description": "Use multi-frame and start-end-frame modes to guide transitions, shot composition, and motion direction."
+    },
+    {
+      "title": "Quality and speed choices",
+      "description": "Choose between Pro, Pro Fast, and Turbo variants depending on output quality, latency, and iteration needs."
+    }
+  ],
+  "whyNovitaItems": [
+    {
+      "title": "Multiple Vidu modes in one place",
+      "description": "Compare Vidu text, image, reference, template, multi-frame, and start-end-frame workflows from one collection page."
+    },
+    {
+      "title": "Direct API path for each mode",
+      "description": "Open the matching model page to review request parameters, pricing, and Playground behavior before integration."
+    },
+    {
+      "title": "Faster model selection",
+      "description": "Choose between Q3, Q2 Pro, Pro Fast, Turbo, and reference modes without scanning the full model catalog."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide before integrating this model family."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs",
+  "whyNovitaTitle": "Why run Vidu on Novita AI"
 }

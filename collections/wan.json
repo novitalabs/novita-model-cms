@@ -1,15 +1,15 @@
 {
   "seriesSlug": "wan",
   "heroTitle": "Wan AI Models",
-  "heroDescription": "Explore Wan video generation models on Novita AI for text-to-video, image-to-video, and production video generation workflows.",
+  "heroDescription": "Wan provides open video generation models for text-to-video, image-to-video, reference-guided video, and video editing workflows.",
   "seoTitle": "Wan AI Models | Novita AI",
-  "seoDescription": "Explore Wan AI models on Novita AI. Compare Wan text-to-video and image-to-video model pages, API access, and structured CMS content for production workflows.",
+  "seoDescription": "Compare Wan AI video models on Novita AI, including Wan 2.7, 2.6, 2.5, 2.2, and 2.1 variants for video generation and editing.",
   "eyebrow": "Video Generation",
   "overviewTitle": "What are Wan AI models?",
   "overviewBody": [
-    "Wan is a video generation model family used for creating video clips from text prompts and source images. It is useful for creative generation, concept previews, advertising assets, and short-form production workflows.",
-    "This Novita AI collection page groups Wan variants into one SEO-friendly hub. Each model card links to an individual model page so developers can inspect API examples, pricing signals, and playground behavior before integration.",
-    "Use the collection to compare Wan versions and generation modes without depending on the full model library view."
+    "Wan is a video generation model family used for creating clips from text prompts, source images, reference assets, and existing video. It is useful for creative generation, concept previews, advertising assets, and short-form production workflows.",
+    "Novita AI exposes Wan variants across text-to-video, image-to-video, reference-to-video, video-to-video, and video editing so teams can choose the input mode that matches their production pipeline.",
+    "Use this collection to compare Wan versions and generation modes, then open a model page for current API parameters, pricing, and Playground testing."
   ],
   "capabilities": [
     {
@@ -17,64 +17,100 @@
       "description": "Create video clips directly from prompts for creative drafts, social assets, and visual exploration."
     },
     {
-      "title": "Image-to-video generation",
-      "description": "Animate source images and iterate on visual motion while preserving a reference frame or subject."
+      "title": "Image and reference guided video",
+      "description": "Animate source images or use references when a subject, product, or visual direction needs to stay consistent."
     },
     {
-      "title": "Versioned Wan lineup",
-      "description": "Organize Wan 2.x models by version and generation mode so users can find the right model page quickly."
+      "title": "Video editing and video reference workflows",
+      "description": "Use newer Wan entries for editing, transforming, or guiding videos from existing visual material."
     },
     {
-      "title": "Model API access",
-      "description": "Use dedicated model pages to move from collection discovery into API examples and playground testing."
+      "title": "Versioned model comparison",
+      "description": "Compare Wan 2.7, 2.6, 2.5, 2.2, and 2.1 variants by workflow, speed, and integration needs."
     }
   ],
   "lineupSections": [
     {
-      "title": "Wan 2.x Series",
-      "description": "Wan 2.x variants cover the main Wan text-to-video and image-to-video workflows available through Novita AI model pages.",
+      "title": "Wan 2.7 Series",
+      "description": "Wan 2.7 includes newer text-to-video, image-to-video, reference-to-video, and video editing workflows.",
       "items": [
-        "Use Wan 2.6 for the newest Wan generation workflows represented in the CMS data.",
-        "Use Wan 2.5 and 2.2 variants to compare earlier behavior or support existing prompts and integrations.",
-        "Open each model page to confirm current API parameters, pricing, and playground availability."
+        "Use Wan 2.7 text-to-video or image-to-video for newer generation workflows.",
+        "Use Wan 2.7 reference-to-video when visual references should guide the output.",
+        "Use Wan 2.7 video editing when the task starts from an existing clip."
       ],
       "modelNames": [
-        "wan-v2.6",
-        "wan-v2.5",
-        "wan-v2.2"
+        "wan2.7-videoedit",
+        "wan2.7-r2v",
+        "wan2.7-t2v",
+        "wan2.7-i2v"
+      ]
+    },
+    {
+      "title": "Wan 2.6 Series",
+      "description": "Wan 2.6 variants cover text, image, and video-reference generation for production video pipelines.",
+      "items": [
+        "Use Wan 2.6 text-to-video for prompt-led video generation.",
+        "Use Wan 2.6 image-to-video to animate source frames.",
+        "Use Wan 2.6 video reference when a source video should guide the generated output."
+      ],
+      "modelNames": [
+        "wan2.6-t2v",
+        "wan2.6-i2v",
+        "wan2.6-v2v"
+      ]
+    },
+    {
+      "title": "Wan 2.5, 2.2, and 2.1 Series",
+      "description": "Earlier Wan variants remain useful for previewing behavior, supporting existing prompts, and comparing output across versions.",
+      "items": [
+        "Use Wan 2.5 preview models to test earlier 2.x generation behavior.",
+        "Use Wan 2.2 and 2.1 variants for established text-to-video and image-to-video workflows.",
+        "Open each model page to confirm current API parameters and pricing."
+      ],
+      "modelNames": [
+        "wan-2.5-i2v-preview",
+        "wan-2.5-t2v-preview",
+        "wan-2.2-i2v",
+        "wan-2.2-t2v",
+        "wan-i2v",
+        "wan-t2v"
       ]
     }
   ],
   "whyNovitaTitle": "Why run Wan on Novita AI",
   "whyNovitaItems": [
     {
-      "title": "Unified model access",
+      "title": "Unified video model access",
       "description": "Use Wan models through the same Novita AI model API surface as other generation families."
     },
     {
-      "title": "Dedicated model pages",
-      "description": "Each Wan variant links to a model page with examples, pricing, and Playground access."
+      "title": "Clear workflow routing",
+      "description": "Move from a collection page to the exact Wan endpoint for text, image, reference, video, or editing input."
     },
     {
-      "title": "Config-backed model cards",
-      "description": "Collection cards are generated from enabled Novita AI model configuration and pricing data."
+      "title": "Test before production integration",
+      "description": "Review examples, pricing, and Playground behavior on each model page before wiring the model into an application."
     }
   ],
   "faq": [
     {
       "question": "What Wan models are available on Novita AI?",
-      "answer": "The collection page lists enabled Wan variants from Novita AI model configuration and links each model to its dedicated model page."
+      "answer": "Novita AI provides Wan 2.7, 2.6, 2.5 preview, 2.2, and 2.1 variants across text-to-video, image-to-video, reference-to-video, video-reference, and video-editing workflows."
+    },
+    {
+      "question": "Which Wan version should I use first?",
+      "answer": "Start with Wan 2.7 for newer generation, reference, and editing workflows; use Wan 2.6 for text, image, or video-reference generation; use earlier versions when comparing behavior or supporting existing prompts."
     },
     {
       "question": "Can I compare Wan model pricing?",
-      "answer": "Yes. Model cards surface pricing from Novita AI product configuration when pricing is available."
+      "answer": "Yes. Open a Wan model page to review current pricing, request parameters, and Playground access."
     }
   ],
   "guidanceLinks": [
     {
       "label": "Model APIs overview",
       "href": "/docs/guides/model-apis-overview",
-      "description": "Start with the Novita AI model API guide."
+      "description": "Start with the Novita AI model API guide before integrating this model family."
     }
   ],
   "apiDocsHref": "/docs/guides/model-apis-overview",
