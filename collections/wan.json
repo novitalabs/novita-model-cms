@@ -1,0 +1,68 @@
+{
+  "seriesSlug": "wan",
+  "heroTitle": "Wan Models",
+  "heroDescription": "Explore Wan video generation models available through Novita AI model APIs. Compare supported variants, pricing, and model pages for text-to-video and image-to-video workflows.",
+  "seoTitle": "Wan Models | Novita AI",
+  "seoDescription": "Explore Wan models on Novita AI, including supported video generation variants, pricing, API examples, and model pages.",
+  "eyebrow": "Video Generation",
+  "capabilities": [
+    {
+      "title": "Text-to-video generation",
+      "description": "Create videos from text prompts with supported Wan variants available through Novita AI."
+    },
+    {
+      "title": "Image-to-video workflows",
+      "description": "Use Wan image-to-video models to animate source images and build video generation pipelines."
+    },
+    {
+      "title": "API-first integration",
+      "description": "Open each Wan model page for API examples, pricing, and Playground access."
+    }
+  ],
+  "lineupSections": [
+    {
+      "title": "Wan 2.x Series",
+      "description": "Wan model variants for text-to-video and image-to-video generation workflows.",
+      "modelNames": [
+        "wan-v2.6",
+        "wan-v2.5",
+        "wan-v2.2",
+        "wan-v2.1"
+      ]
+    }
+  ],
+  "whyNovitaTitle": "Why run Wan on Novita AI",
+  "whyNovitaItems": [
+    {
+      "title": "Unified model access",
+      "description": "Use Wan models through the same Novita AI model API surface as other generation families."
+    },
+    {
+      "title": "Dedicated model pages",
+      "description": "Each Wan variant links to a model page with examples, pricing, and Playground access."
+    },
+    {
+      "title": "Config-backed model cards",
+      "description": "Collection cards are generated from enabled Novita AI model configuration and pricing data."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What Wan models are available on Novita AI?",
+      "answer": "The collection page lists enabled Wan variants from Novita AI model configuration and links each model to its dedicated model page."
+    },
+    {
+      "question": "Can I compare Wan model pricing?",
+      "answer": "Yes. Model cards surface pricing from Novita AI product configuration when pricing is available."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs"
+}

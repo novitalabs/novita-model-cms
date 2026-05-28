@@ -1,0 +1,77 @@
+{
+  "seriesSlug": "kling",
+  "heroTitle": "Kling Models",
+  "heroDescription": "Explore Kling video generation models available through Novita AI model APIs. Compare supported variants, pricing, and model pages for production video workflows.",
+  "seoTitle": "Kling Models | Novita AI",
+  "seoDescription": "Explore Kling models on Novita AI, including text-to-video and image-to-video variants, pricing, API examples, and model pages.",
+  "eyebrow": "Video Generation",
+  "capabilities": [
+    {
+      "title": "Text-to-video generation",
+      "description": "Generate video clips from text prompts with Kling model variants exposed through Novita AI APIs."
+    },
+    {
+      "title": "Image-to-video workflows",
+      "description": "Animate source images and iterate on visual motion workflows with supported Kling image-to-video models."
+    },
+    {
+      "title": "Production API access",
+      "description": "Use dedicated model pages to review API examples, pricing, and Playground access for each Kling variant."
+    }
+  ],
+  "lineupSections": [
+    {
+      "title": "Kling 2.x Series",
+      "description": "Latest Kling model variants for higher-quality video generation workflows.",
+      "modelNames": [
+        "kling-v2.1",
+        "kling-v2.1-master",
+        "kling-v2.0",
+        "kling-v2.0-master"
+      ]
+    },
+    {
+      "title": "Kling 1.x Series",
+      "description": "Established Kling variants for text-to-video and image-to-video generation.",
+      "modelNames": [
+        "kling-v1.6",
+        "kling-v1.5",
+        "kling-v1.0"
+      ]
+    }
+  ],
+  "whyNovitaTitle": "Why run Kling on Novita AI",
+  "whyNovitaItems": [
+    {
+      "title": "One model API surface",
+      "description": "Access Kling alongside other image, video, and audio generation models through Novita AI."
+    },
+    {
+      "title": "Model-specific SEO pages",
+      "description": "Each Kling variant links to a dedicated model page with examples, pricing, and Playground entry points."
+    },
+    {
+      "title": "Usage-based pricing",
+      "description": "Model cards use the same product configuration and pricing source as the rest of Novita AI."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What Kling models are available on Novita AI?",
+      "answer": "The collection page lists enabled Kling variants from Novita AI model configuration and links each model to its dedicated model page."
+    },
+    {
+      "question": "Can I use Kling through an API?",
+      "answer": "Yes. Open an individual Kling model page to review API examples, pricing, and Playground access."
+    }
+  ],
+  "guidanceLinks": [
+    {
+      "label": "Model APIs overview",
+      "href": "/docs/guides/model-apis-overview",
+      "description": "Start with the Novita AI model API guide."
+    }
+  ],
+  "apiDocsHref": "/docs/guides/model-apis-overview",
+  "apiDocsLabel": "Read API docs"
+}
