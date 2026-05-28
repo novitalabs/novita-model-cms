@@ -1,42 +1,58 @@
 {
   "seriesSlug": "kling",
-  "heroTitle": "Kling Models",
-  "heroDescription": "Explore Kling video generation models available through Novita AI model APIs. Compare supported variants, pricing, and model pages for production video workflows.",
-  "seoTitle": "Kling Models | Novita AI",
-  "seoDescription": "Explore Kling models on Novita AI, including text-to-video and image-to-video variants, pricing, API examples, and model pages.",
+  "heroTitle": "Kling AI Models",
+  "heroDescription": "Explore Kling video generation models on Novita AI, including text-to-video and image-to-video variants for cinematic short-form video workflows.",
+  "seoTitle": "Kling AI Models | Novita AI",
+  "seoDescription": "Explore Kling AI models on Novita AI. Compare Kling text-to-video and image-to-video variants, model pages, API access, and pricing signals for production video generation.",
   "eyebrow": "Video Generation",
+  "overviewTitle": "What are Kling AI models?",
+  "overviewBody": [
+    "Kling is a video generation model family developed by Kuaishou for creating short cinematic clips from text prompts, source images, and guided visual references. The family is widely used for text-to-video and image-to-video workflows where motion quality, prompt alignment, subject consistency, and realistic physics matter.",
+    "On Novita AI, this collection page organizes the available Kling model variants into a single SEO-friendly model hub. Each card links to a dedicated model page where developers can review API behavior, pricing, and playground access before integrating the model into a production workflow.",
+    "Use this page to compare Kling versions, generation modes, and model-page entry points without scanning the full model library."
+  ],
   "capabilities": [
     {
-      "title": "Text-to-video generation",
-      "description": "Generate video clips from text prompts with Kling model variants exposed through Novita AI APIs."
+      "title": "Cinematic video generation",
+      "description": "Generate short video clips with natural camera motion, visual coherence, and production-oriented motion quality."
     },
     {
-      "title": "Image-to-video workflows",
-      "description": "Animate source images and iterate on visual motion workflows with supported Kling image-to-video models."
+      "title": "Text-to-video and image-to-video workflows",
+      "description": "Use Kling variants for prompt-only generation, image animation, and controlled creative iteration from visual references."
     },
     {
-      "title": "Production API access",
-      "description": "Use dedicated model pages to review API examples, pricing, and Playground access for each Kling variant."
+      "title": "Versioned model lineup",
+      "description": "Compare Kling 2.x and 1.x variants by generation mode, quality tier, and model page availability."
+    },
+    {
+      "title": "API-first integration",
+      "description": "Open an individual Kling model page for REST API examples, pricing details, and playground testing."
     }
   ],
   "lineupSections": [
     {
       "title": "Kling 2.x Series",
-      "description": "Latest Kling model variants for higher-quality video generation workflows.",
+      "description": "Kling 2.x models focus on higher-fidelity motion, stronger prompt interpretation, and more production-ready text-to-video and image-to-video generation.",
+      "items": [
+        "Use Kling 2.1 and 2.1 Master when visual fidelity and cinematic motion are the priority.",
+        "Use Kling 2.0 variants for established text-to-video and image-to-video pipelines.",
+        "Open the model page for each variant to confirm supported parameters, pricing, and playground behavior."
+      ],
       "modelNames": [
         "kling-v2.1",
         "kling-v2.1-master",
-        "kling-v2.0",
-        "kling-v2.0-master"
+        "kling-v2.0"
       ]
     },
     {
       "title": "Kling 1.x Series",
-      "description": "Established Kling variants for text-to-video and image-to-video generation.",
+      "description": "Kling 1.x models remain useful for stable image-to-video and text-to-video workflows where compatibility and predictable output are more important than the newest feature set.",
+      "items": [
+        "Useful for baseline Kling generation workflows and comparison against newer 2.x models.",
+        "Best for teams that already have prompts, assets, or evaluations built around earlier Kling behavior."
+      ],
       "modelNames": [
-        "kling-v1.6",
-        "kling-v1.5",
-        "kling-v1.0"
+        "kling-v1.6"
       ]
     }
   ],
@@ -127,5 +143,5 @@
       "link": "/models/kling/kling-v2.0"
     }
   ],
-  "updatedAt": "2026-05-28T08:07:56.751Z"
+  "updatedAt": "2026-05-28T08:21:02.425Z"
 }

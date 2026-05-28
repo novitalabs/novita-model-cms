@@ -15,7 +15,14 @@ Each collection file is read by `novita-home` as JSON. Keep field names camelCas
 - `heroTitle`
 - `heroDescription`
 
-Optional structured sections include `capabilities`, `lineupSections`, `whyNovitaItems`, `faq`, and `guidanceLinks`.
+Optional structured sections include `overviewTitle`, `overviewBody`, `capabilities`, `lineupSections`, `whyNovitaItems`, `faq`, and `guidanceLinks`.
+
+`lineupSections` supports:
+
+- `title`
+- `description`
+- `items`
+- `modelNames`
 
 `models` can be used to provide collection card records when frontend model config is not available in the current environment. Keep each record structured:
 
