@@ -92,56 +92,278 @@
   "apiDocsLabel": "Read API docs",
   "models": [
     {
-      "id": "kling-v2.1",
-      "name": "kling-v2.1",
-      "displayName": "Kling v2.1",
+      "id": "kling-v3.0-4k-i2v",
+      "name": "kling-v3.0-4k-i2v",
+      "displayName": "Kling v3.0 4K Image-to-Video",
+      "description": "Generate 4K image-to-video clips with Kling v3.0 for high-detail cinematic production.",
       "series": "Kling",
       "tags": [
         "Video Generation",
         "Image-to-Video"
       ],
-      "infos": [
-        [
-          "$0.1265 /video 5s",
-          "$0.2475 /video 10s"
-        ]
-      ],
-      "link": "/models/kling/kling-v2.1",
-      "isNew": true
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-4k-i2v"
     },
     {
-      "id": "kling-v2.1-master",
-      "name": "kling-v2.1-master",
-      "displayName": "Kling v2.1 Master",
+      "id": "kling-v3.0-4k-t2v",
+      "name": "kling-v3.0-4k-t2v",
+      "displayName": "Kling v3.0 4K Text-to-Video",
+      "description": "Create 4K text-to-video clips from prompts with Kling v3.0 visual fidelity.",
       "series": "Kling",
       "tags": [
         "Video Generation",
         "Text-to-Video"
       ],
-      "infos": [
-        [
-          "$0.6435 /video 5s",
-          "$1.287 /video 10s"
-        ]
-      ],
-      "link": "/models/kling/kling-v2.1-master",
-      "isHot": true
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-4k-t2v"
     },
     {
-      "id": "kling-v2.0",
-      "name": "kling-v2.0",
-      "displayName": "Kling v2.0",
+      "id": "kling-2.5-turbo-t2v",
+      "name": "kling-2.5-turbo-t2v",
+      "displayName": "Kling 2.5 Turbo Text to Video",
+      "description": "Generate fast prompt-driven videos with Kling 2.5 Turbo text-to-video.",
       "series": "Kling",
       "tags": [
-        "Video Generation"
+        "Video Generation",
+        "Text-to-Video"
       ],
-      "infos": [
-        [
-          "CMS managed model record"
-        ]
+      "infos": [],
+      "link": "/models/kling/kling-2.5-turbo-t2v"
+    },
+    {
+      "id": "kling-2.5-turbo-i2v",
+      "name": "kling-2.5-turbo-i2v",
+      "displayName": "Kling 2.5 Turbo Image to Video",
+      "description": "Animate source images into short videos with Kling 2.5 Turbo image-to-video.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
       ],
-      "link": "/models/kling/kling-v2.0"
+      "infos": [],
+      "link": "/models/kling/kling-2.5-turbo-i2v"
+    },
+    {
+      "id": "kling-v1.6-i2v",
+      "name": "kling-v1.6-i2v",
+      "displayName": "Kling v1.6 Image-to-Video",
+      "description": "Use Kling v1.6 for stable image-to-video generation and baseline Kling workflows.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v1.6-i2v"
+    },
+    {
+      "id": "kling-v1.6-t2v",
+      "name": "kling-v1.6-t2v",
+      "displayName": "Kling v1.6 Text-to-Video",
+      "description": "Create text-to-video clips with Kling v1.6 for established prompt workflows.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v1.6-t2v"
+    },
+    {
+      "id": "kling-v3.0-motion-control",
+      "name": "kling-v3.0-motion-control",
+      "displayName": "Kling V3.0 Motion Control",
+      "description": "Control motion and video references with Kling v3.0 motion-control generation.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Video-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-motion-control"
+    },
+    {
+      "id": "kling-v2.1-i2v-master",
+      "name": "kling-v2.1-i2v-master",
+      "displayName": "Kling v2.1 Image-to-Video (Master)",
+      "description": "Generate premium image-to-video clips with Kling v2.1 Master quality.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.1-i2v-master"
+    },
+    {
+      "id": "kling-v2.1-t2v-master",
+      "name": "kling-v2.1-t2v-master",
+      "displayName": "Kling v2.1 Master Text-to-Video",
+      "description": "Use Kling v2.1 Master for higher-fidelity prompt-to-video generation.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.1-t2v-master"
+    },
+    {
+      "id": "kling-v2.1-i2v",
+      "name": "kling-v2.1-i2v",
+      "displayName": "Kling v2.1 Image-to-Video",
+      "description": "Animate source images with Kling v2.1 image-to-video generation.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.1-i2v"
+    },
+    {
+      "id": "kling-v3.0-pro-t2v",
+      "name": "kling-v3.0-pro-t2v",
+      "displayName": "Kling v3.0 Pro Text-to-Video",
+      "description": "Create high-quality text-to-video clips with Kling v3.0 Pro.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-pro-t2v"
+    },
+    {
+      "id": "kling-v3.0-pro-i2v",
+      "name": "kling-v3.0-pro-i2v",
+      "displayName": "Kling v3.0 Pro Image-to-Video",
+      "description": "Turn images into cinematic videos with Kling v3.0 Pro image-to-video.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-pro-i2v"
+    },
+    {
+      "id": "kling-v3.0-std-t2v",
+      "name": "kling-v3.0-std-t2v",
+      "displayName": "Kling v3.0 Standard Text-to-Video",
+      "description": "Use Kling v3.0 Standard for cost-efficient text-to-video generation.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-std-t2v"
+    },
+    {
+      "id": "kling-v3.0-std-i2v",
+      "name": "kling-v3.0-std-i2v",
+      "displayName": "Kling v3.0 Standard Image-to-Video",
+      "description": "Use Kling v3.0 Standard to animate images into short video clips.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v3.0-std-i2v"
+    },
+    {
+      "id": "kling-v2.6-pro-i2v",
+      "name": "kling-v2.6-pro-i2v",
+      "displayName": "Kling V2.6 Pro Image-to-Video",
+      "description": "Generate image-to-video clips with Kling v2.6 Pro motion and visual quality.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.6-pro-i2v"
+    },
+    {
+      "id": "kling-v2.6-pro-t2v",
+      "name": "kling-v2.6-pro-t2v",
+      "displayName": "Kling V2.6 Pro Text-to-Video",
+      "description": "Create prompt-driven videos with Kling v2.6 Pro text-to-video.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.6-pro-t2v"
+    },
+    {
+      "id": "kling-v2.6-pro-motion-control",
+      "name": "kling-v2.6-pro-motion-control",
+      "displayName": "Kling V2.6 Pro Motion Control",
+      "description": "Apply motion-control workflows with Kling v2.6 Pro video generation.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Video-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-v2.6-pro-motion-control"
+    },
+    {
+      "id": "kling-o1-reference-video",
+      "name": "kling-o1-reference-video",
+      "displayName": "Kling-o1 Reference Video Generation",
+      "description": "Generate videos from visual references with Kling-o1 reference-video workflows.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Video-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-o1-reference-video"
+    },
+    {
+      "id": "kling-o1-edit-video",
+      "name": "kling-o1-edit-video",
+      "displayName": "Kling-o1 Video Editing",
+      "description": "Edit existing video clips with Kling-o1 video editing workflows.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Video Editing"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-o1-edit-video"
+    },
+    {
+      "id": "kling-o1-i2v",
+      "name": "kling-o1-i2v",
+      "displayName": "Kling-o1 Image to Video",
+      "description": "Animate still images into videos with Kling-o1 image-to-video.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-o1-i2v"
+    },
+    {
+      "id": "kling-o1-t2v",
+      "name": "kling-o1-t2v",
+      "displayName": "Kling-o1 Text to Video",
+      "description": "Generate videos directly from prompts with Kling-o1 text-to-video.",
+      "series": "Kling",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/kling/kling-o1-t2v"
     }
   ],
-  "updatedAt": "2026-05-28T08:21:02.425Z"
+  "updatedAt": "2026-05-28T08:42:14.782Z"
 }

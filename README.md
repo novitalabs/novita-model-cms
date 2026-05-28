@@ -28,6 +28,8 @@ Optional structured sections include `overviewTitle`, `overviewBody`, `capabilit
 
 - `name`
 - `displayName`
+- `description`
+- `coverImage`
 - `series`
 - `tags`
 - `infos`

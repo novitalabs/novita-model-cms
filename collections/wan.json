@@ -81,53 +81,174 @@
   "apiDocsLabel": "Read API docs",
   "models": [
     {
-      "id": "wan-v2.6",
-      "name": "wan-v2.6",
-      "displayName": "Wan v2.6",
+      "id": "wan2.7-videoedit",
+      "name": "wan2.7-videoedit",
+      "displayName": "Wan 2.7 Video Editing",
+      "description": "Edit and transform existing videos with Wan 2.7 video editing.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Video Editing"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan2.7-videoedit"
+    },
+    {
+      "id": "wan2.7-r2v",
+      "name": "wan2.7-r2v",
+      "displayName": "Wan 2.7 Reference-to-Video",
+      "description": "Generate video from reference assets with Wan 2.7 reference-to-video.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Reference-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan2.7-r2v"
+    },
+    {
+      "id": "wan2.7-t2v",
+      "name": "wan2.7-t2v",
+      "displayName": "Wan 2.7 Text-to-Video",
+      "description": "Create prompt-driven videos with Wan 2.7 text-to-video.",
       "series": "Wan",
       "tags": [
         "Video Generation",
         "Text-to-Video"
       ],
-      "infos": [
-        [
-          "CMS managed model record"
-        ]
-      ],
-      "link": "/models/wan/wan-v2.6",
-      "isNew": true
+      "infos": [],
+      "link": "/models/wan/wan2.7-t2v"
     },
     {
-      "id": "wan-v2.5",
-      "name": "wan-v2.5",
-      "displayName": "Wan v2.5",
+      "id": "wan2.7-i2v",
+      "name": "wan2.7-i2v",
+      "displayName": "Wan 2.7 Image-to-Video",
+      "description": "Animate source images into videos with Wan 2.7 image-to-video.",
       "series": "Wan",
       "tags": [
         "Video Generation",
         "Image-to-Video"
       ],
-      "infos": [
-        [
-          "CMS managed model record"
-        ]
-      ],
-      "link": "/models/wan/wan-v2.5"
+      "infos": [],
+      "link": "/models/wan/wan2.7-i2v"
     },
     {
-      "id": "wan-v2.2",
-      "name": "wan-v2.2",
-      "displayName": "Wan v2.2",
+      "id": "wan-i2v",
+      "name": "wan-i2v",
+      "displayName": "Wan 2.1 Image to Video",
+      "description": "Use Wan 2.1 image-to-video for stable source-image animation workflows.",
       "series": "Wan",
       "tags": [
-        "Video Generation"
+        "Video Generation",
+        "Image-to-Video"
       ],
-      "infos": [
-        [
-          "CMS managed model record"
-        ]
+      "infos": [],
+      "link": "/models/wan/wan-i2v"
+    },
+    {
+      "id": "wan-t2v",
+      "name": "wan-t2v",
+      "displayName": "Wan 2.1 Text to Video",
+      "description": "Create text-to-video clips with Wan 2.1 prompt generation.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
       ],
-      "link": "/models/wan/wan-v2.2"
+      "infos": [],
+      "link": "/models/wan/wan-t2v"
+    },
+    {
+      "id": "wan-2.2-i2v",
+      "name": "wan-2.2-i2v",
+      "displayName": "Wan 2.2 Image to Video",
+      "description": "Animate images with Wan 2.2 image-to-video generation.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan-2.2-i2v"
+    },
+    {
+      "id": "wan-2.2-t2v",
+      "name": "wan-2.2-t2v",
+      "displayName": "Wan 2.2 Text to Video",
+      "description": "Generate prompt-based videos with Wan 2.2 text-to-video.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan-2.2-t2v"
+    },
+    {
+      "id": "wan-2.5-i2v-preview",
+      "name": "wan-2.5-i2v-preview",
+      "displayName": "Wan 2.5 Image to Video Preview",
+      "description": "Preview Wan 2.5 image-to-video generation from source images.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan-2.5-i2v-preview"
+    },
+    {
+      "id": "wan-2.5-t2v-preview",
+      "name": "wan-2.5-t2v-preview",
+      "displayName": "Wan 2.5 Text to Video Preview",
+      "description": "Preview Wan 2.5 text-to-video generation from prompts.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan-2.5-t2v-preview"
+    },
+    {
+      "id": "wan2.6-v2v",
+      "name": "wan2.6-v2v",
+      "displayName": "Wan 2.6 Video Reference",
+      "description": "Use Wan 2.6 video references for guided video generation workflows.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Video-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan2.6-v2v"
+    },
+    {
+      "id": "wan2.6-i2v",
+      "name": "wan2.6-i2v",
+      "displayName": "Wan 2.6 Image To Video",
+      "description": "Turn images into video clips with Wan 2.6 image-to-video.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan2.6-i2v"
+    },
+    {
+      "id": "wan2.6-t2v",
+      "name": "wan2.6-t2v",
+      "displayName": "Wan 2.6 Text to Video",
+      "description": "Create video clips from text prompts with Wan 2.6 text-to-video.",
+      "series": "Wan",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/wan/wan2.6-t2v"
     }
   ],
-  "updatedAt": "2026-05-28T08:21:02.431Z"
+  "updatedAt": "2026-05-28T08:42:14.785Z"
 }
