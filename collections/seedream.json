@@ -1,0 +1,91 @@
+{
+  "seriesSlug": "seedream",
+  "heroTitle": "Seedream AI Models",
+  "heroDescription": "Explore ByteDance Seedream image generation models on Novita AI for text-to-image, image-to-image, and high-quality visual creation workflows.",
+  "seoTitle": "Seedream AI Models | Novita AI",
+  "seoDescription": "Explore Seedream AI models on Novita AI. Compare Seedream 5.0 Lite and Seedream 4.5 image generation model pages for API integration.",
+  "eyebrow": "Image Generation",
+  "overviewTitle": "What are Seedream AI models?",
+  "overviewBody": [
+    "Seedream is ByteDance Seed's image generation model family. Public Seedream releases cover bilingual text-to-image generation, unified image generation and editing, multi-image composition, and high-resolution creative output.",
+    "On Novita AI, this collection groups enabled Seedream model pages so developers can compare text-to-image and image-to-image capable entries, then open a dedicated page for API behavior, pricing, and Playground testing."
+  ],
+  "lineupSections": [
+    {
+      "title": "Seedream 5.0 Lite",
+      "description": "Seedream 5.0 Lite is a newer lightweight Seedream release for efficient image generation workflows.",
+      "items": [
+        "Use it for newer Seedream image generation workflows where a lightweight latest-generation model is preferred.",
+        "Official material emphasizes improved prompt following and alignment; exact Novita parameter support should be confirmed on the model page."
+      ],
+      "modelNames": [
+        "seedream-5.0-lite"
+      ]
+    },
+    {
+      "title": "Seedream 4.x",
+      "description": "Seedream 4.x models are used for text-to-image and image-to-image visual creation workflows.",
+      "items": [
+        "Use Seedream 4.5 for enabled Novita image generation and editing workflows.",
+        "Public official documentation is stronger for Seedream 4.0 than 4.5-specific behavior, so confirm model-page parameters before integration."
+      ],
+      "modelNames": [
+        "seedream-4.5"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Seedream used for?",
+      "answer": "Seedream is used for AI image generation. Depending on the version, public material describes text-to-image generation, image editing, multi-image composition, and bilingual prompt handling."
+    },
+    {
+      "question": "Which Seedream models are enabled on Novita AI?",
+      "answer": "The current Seedream collection includes Seedream 5.0 Lite and Seedream 4.5 from Novita enabled multimodal configuration."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://seed.bytedance.com/en/seedream4_0",
+      "https://seed.bytedance.com/en/seedream5_0_lite",
+      "https://arxiv.org/abs/2509.20427",
+      "https://arxiv.org/abs/2504.11346"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true"
+    ],
+    "reference": [
+      "https://wavespeed.ai/collections/seedream"
+    ]
+  },
+  "models": [
+    {
+      "id": "seedream-5.0-lite",
+      "name": "seedream-5.0-lite",
+      "displayName": "Seedream 5.0 Lite",
+      "description": "Generate and edit images with ByteDance Seedream 5.0 Lite for efficient visual creation workflows.",
+      "series": "Seedream",
+      "tags": [
+        "Image Generation",
+        "Text-to-Image",
+        "Image-to-Image"
+      ],
+      "infos": [],
+      "link": "/models/seedream/seedream-5.0-lite"
+    },
+    {
+      "id": "seedream-4.5",
+      "name": "seedream-4.5",
+      "displayName": "Seedream 4.5",
+      "description": "Create and edit images with Seedream 4.5 for text-to-image and image-to-image workflows.",
+      "series": "Seedream",
+      "tags": [
+        "Image Generation",
+        "Text-to-Image",
+        "Image-to-Image"
+      ],
+      "infos": [],
+      "link": "/models/seedream/seedream-4.5"
+    }
+  ]
+}

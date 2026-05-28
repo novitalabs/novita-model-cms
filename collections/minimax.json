@@ -1,0 +1,163 @@
+{
+  "seriesSlug": "minimax",
+  "heroTitle": "MiniMax AI Models",
+  "heroDescription": "Explore MiniMax audio models on Novita AI for text-to-speech, voice design, music generation, and lyric creation workflows.",
+  "seoTitle": "MiniMax AI Models | Novita AI",
+  "seoDescription": "Explore MiniMax AI models on Novita AI. Compare MiniMax Speech 2.8, voice design, music generation, and lyrics model pages for API integration.",
+  "eyebrow": "Audio Generation",
+  "overviewTitle": "What are MiniMax AI models?",
+  "overviewBody": [
+    "MiniMax is a multimodal AI company with public model lines for video, speech, music, and agentic applications. In the current Novita AI multimodal configuration, this collection focuses on MiniMax audio models rather than Hailuo video models.",
+    "The enabled MiniMax lineup includes Speech 2.8 HD and Turbo for synchronous or asynchronous text-to-speech, MiniMax Voice Design for creating custom voices from text descriptions, and MiniMax Music and Lyrics for music creation workflows.",
+    "Use this page to choose the right MiniMax audio model and open a dedicated model page for API parameters, pricing, and Playground testing."
+  ],
+  "lineupSections": [
+    {
+      "title": "MiniMax Speech 2.8",
+      "description": "MiniMax Speech 2.8 variants generate multilingual text-to-speech audio, with HD variants prioritizing quality and Turbo variants prioritizing speed.",
+      "items": [
+        "Use HD when naturalness and audio quality are more important.",
+        "Use Turbo for lower-latency or higher-volume speech generation.",
+        "Choose async endpoints for long-running jobs and sync endpoints for direct request-response workflows."
+      ],
+      "modelNames": [
+        "minimax-speech-2.8-hd",
+        "minimax-speech-2.8-turbo",
+        "minimax-speech-2.8-hd-async",
+        "minimax-speech-2.8-turbo-async"
+      ]
+    },
+    {
+      "title": "Voice and music creation",
+      "description": "MiniMax also exposes tools for custom voice design, music generation, and lyric creation.",
+      "items": [
+        "Use Voice Design to create reusable custom voice IDs from text descriptions.",
+        "Use MiniMax Music to generate songs from prompts and lyrics.",
+        "Use MiniMax Lyrics to draft or edit lyrics before music generation."
+      ],
+      "modelNames": [
+        "minimax-voice-design",
+        "minimax-music",
+        "minimax-music-lyrics"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What MiniMax models are available on Novita AI?",
+      "answer": "The current MiniMax collection includes enabled audio models: MiniMax Speech 2.8 HD and Turbo, their async variants, MiniMax Voice Design, MiniMax Music, and MiniMax Lyrics."
+    },
+    {
+      "question": "When should I use MiniMax Speech HD versus Turbo?",
+      "answer": "Use HD models when output quality is the priority, and Turbo models when speed, cost, or high-volume generation is more important."
+    },
+    {
+      "question": "Are MiniMax Hailuo video models part of this collection?",
+      "answer": "Not in the current Novita enabled multimodal configuration for this collection. MiniMax is known for Hailuo video models, but this CMS page follows the currently enabled MiniMax series entries returned by Novita config."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://www.minimax.io/en/about",
+      "https://platform.minimax.io/document/Voice_Cloning_api_intro",
+      "https://platform.minimax.io/docs/api-reference/voice-cloning-clone",
+      "https://arxiv.org/abs/2505.07916"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true"
+    ]
+  },
+  "models": [
+    {
+      "id": "minimax-voice-design",
+      "name": "minimax-voice-design",
+      "displayName": "MiniMax Voice Design",
+      "description": "Generate custom voice IDs from text descriptions for use in speech synthesis workflows.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Voice Design"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-voice-design"
+    },
+    {
+      "id": "minimax-music",
+      "name": "minimax-music",
+      "displayName": "MiniMax Music",
+      "description": "Create AI music from prompts and lyrics across different styles, moods, and scenes.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Music"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-music"
+    },
+    {
+      "id": "minimax-music-lyrics",
+      "name": "minimax-music-lyrics",
+      "displayName": "MiniMax Lyrics",
+      "description": "Generate or edit song lyrics with structure tags ready for music generation.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Lyrics"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-music-lyrics"
+    },
+    {
+      "id": "minimax-speech-2.8-turbo-async",
+      "name": "minimax-speech-2.8-turbo-async",
+      "displayName": "MiniMax Speech 2.8 Turbo Async Text-to-Speech",
+      "description": "Generate text-to-speech audio asynchronously with the faster MiniMax Speech 2.8 Turbo model.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Text-to-Speech"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-speech-2.8-turbo-async"
+    },
+    {
+      "id": "minimax-speech-2.8-hd-async",
+      "name": "minimax-speech-2.8-hd-async",
+      "displayName": "MiniMax Speech 2.8 HD Async Text-to-Speech",
+      "description": "Generate higher-quality MiniMax Speech 2.8 text-to-speech audio asynchronously.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Text-to-Speech"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-speech-2.8-hd-async"
+    },
+    {
+      "id": "minimax-speech-2.8-turbo",
+      "name": "minimax-speech-2.8-turbo",
+      "displayName": "MiniMax Speech 2.8 Turbo Sync Text-to-Speech",
+      "description": "Generate fast MiniMax Speech 2.8 text-to-speech audio in synchronous workflows.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Text-to-Speech"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-speech-2.8-turbo"
+    },
+    {
+      "id": "minimax-speech-2.8-hd",
+      "name": "minimax-speech-2.8-hd",
+      "displayName": "MiniMax Speech 2.8 HD Sync Text-to-Speech",
+      "description": "Generate high-quality MiniMax Speech 2.8 text-to-speech audio in synchronous workflows.",
+      "series": "MiniMax",
+      "tags": [
+        "Audio Generation",
+        "Text-to-Speech"
+      ],
+      "infos": [],
+      "link": "/models/minimax/minimax-speech-2.8-hd"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "seriesSlug": "vidu",
+  "heroTitle": "Vidu AI Models",
+  "heroDescription": "Explore Vidu video models for text-to-video, image-to-video, reference-to-video, multi-frame, and start-end-frame video generation.",
+  "seoTitle": "Vidu AI Models | Novita AI",
+  "seoDescription": "Explore Vidu AI models on Novita AI. Compare Vidu Q2 and Q3 text-to-video, image-to-video, reference-to-video, multi-frame, and start-end-frame workflows.",
+  "eyebrow": "Video Generation",
+  "overviewTitle": "What are Vidu AI models?",
+  "overviewBody": [
+    "Vidu is a video generation model family from Shengshu Technology for creating short videos from prompts, images, reference subjects, multiple frames, and start/end frames. The family is useful when teams need controllable motion, subject consistency, and production-oriented short-form video workflows.",
+    "Vidu Q3 focuses on newer text-to-video, image-to-video, and start-end-frame generation. Vidu Q2 variants cover template-to-video, reference-to-video, image-to-video, multi-frame, Pro Fast, Pro, and Turbo workflows for different quality and speed needs.",
+    "On Novita AI, this collection groups the enabled Vidu model variants into one hub so developers can choose the right input mode and open a dedicated model page for parameters, pricing, and Playground testing."
+  ],
+  "lineupSections": [
+    {
+      "title": "Vidu Q3 Series",
+      "description": "Vidu Q3 covers newer Pro and Turbo text-to-video, image-to-video, and start-end-frame workflows.",
+      "items": [
+        "Use Q3 Pro when final visual quality matters most.",
+        "Use Q3 Turbo when faster generation and iteration are more important.",
+        "Use Start-End-to-Video when you need to control the first and last frames and let the model fill the transition."
+      ],
+      "modelNames": [
+        "vidu-q3-pro-t2v",
+        "vidu-q3-pro-i2v",
+        "vidu-q3-pro-f2v",
+        "vidu-q3-turbo-t2v",
+        "vidu-q3-turbo-i2v",
+        "vidu-q3-turbo-f2v"
+      ]
+    },
+    {
+      "title": "Vidu Q2 Pro and Pro Fast",
+      "description": "Vidu Q2 Pro variants support image-to-video, multi-frame, start-end-frame, and faster reference/image workflows.",
+      "items": [
+        "Use Pro variants for higher-quality Q2 image and keyframe workflows.",
+        "Use Pro Fast variants when turnaround time matters.",
+        "Use multi-frame or start-end-frame modes when the shot needs stronger visual control."
+      ],
+      "modelNames": [
+        "viduq2-pro-fast",
+        "vidu-q2-pro-fast-img2video",
+        "vidu-q2-pro-fast-startend2video",
+        "vidu-q2-pro-img2video",
+        "vidu-q2-pro-multiframe",
+        "vidu-q2-pro-startend2video"
+      ]
+    },
+    {
+      "title": "Vidu Q2 Turbo and Reference Modes",
+      "description": "Vidu Q2 Turbo and reference/template entries support fast generation, reference-guided video, and template-driven workflows.",
+      "items": [
+        "Use Q2 Turbo for faster image-to-video, multi-frame, and start-end-frame generation.",
+        "Use Reference Image to Video when preserving a character, object, or scene matters.",
+        "Use Template to Video for template-led Vidu generation workflows."
+      ],
+      "modelNames": [
+        "vidu-q2-turbo-img2video",
+        "vidu-q2-turbo-multiframe",
+        "vidu-q2-turbo-startend2video",
+        "vidu-q2-reference2video",
+        "vidu-q2-template2video",
+        "vidu-q2-text2video"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What Vidu models are available on Novita AI?",
+      "answer": "The current Vidu collection includes enabled Vidu Q2 and Q3 variants for text-to-video, image-to-video, reference-to-video, template-to-video, multi-frame, and start-end-frame video generation."
+    },
+    {
+      "question": "When should I use Vidu Reference-to-Video?",
+      "answer": "Use Reference-to-Video when a project needs consistent characters, objects, scenes, or brand elements rather than simple single-image animation."
+    },
+    {
+      "question": "What is the difference between Vidu Pro and Turbo?",
+      "answer": "Pro variants are positioned for higher-quality output, while Turbo variants are better suited for faster iteration and cost-sensitive workflows."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://www.vidu.com/vidu-q3",
+      "https://platform.vidu.com/docs/reference-to-video",
+      "https://www.vidu.com/ai-reference-to-video"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true",
+      "https://novita.ai/docs/api-reference/model-apis-vidu-q3-turbo-t2v",
+      "https://novita.ai/docs/api-reference/model-apis-vidu-q2-text2video"
+    ],
+    "reference": [
+      "https://wavespeed.ai/vidu-q3-api"
+    ]
+  },
+  "models": [
+    {
+      "id": "viduq2-pro-fast",
+      "name": "viduq2-pro-fast",
+      "displayName": "VIDU Q2 Pro Fast Reference to Video",
+      "description": "Generate reference-guided Vidu Q2 Pro Fast videos for quicker subject-consistent iteration.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Reference-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/viduq2-pro-fast"
+    },
+    {
+      "id": "vidu-q3-pro-f2v",
+      "name": "vidu-q3-pro-f2v",
+      "displayName": "Vidu Q3 Pro Start-End-to-Video",
+      "description": "Create high-fidelity Vidu Q3 Pro transitions from start and end frames.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Start-End Frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-pro-f2v"
+    },
+    {
+      "id": "vidu-q3-turbo-f2v",
+      "name": "vidu-q3-turbo-f2v",
+      "displayName": "Vidu Q3 Turbo Start-End-to-Video",
+      "description": "Generate fast Q3 Turbo transitions between a first and last frame.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Start-End Frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-turbo-f2v"
+    },
+    {
+      "id": "vidu-q3-turbo-i2v",
+      "name": "vidu-q3-turbo-i2v",
+      "displayName": "Vidu Q3 Turbo Image-to-Video",
+      "description": "Animate source images quickly with Vidu Q3 Turbo image-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-turbo-i2v"
+    },
+    {
+      "id": "vidu-q3-turbo-t2v",
+      "name": "vidu-q3-turbo-t2v",
+      "displayName": "Vidu Q3 Turbo Text-to-Video",
+      "description": "Generate fast prompt-driven videos with Vidu Q3 Turbo text-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-turbo-t2v"
+    },
+    {
+      "id": "vidu-q3-pro-i2v",
+      "name": "vidu-q3-pro-i2v",
+      "displayName": "Vidu Q3 Pro Image-to-Video",
+      "description": "Animate source images with higher-fidelity Vidu Q3 Pro image-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-pro-i2v"
+    },
+    {
+      "id": "vidu-q3-pro-t2v",
+      "name": "vidu-q3-pro-t2v",
+      "displayName": "Vidu Q3 Pro Text-to-Video",
+      "description": "Generate higher-fidelity videos from prompts with Vidu Q3 Pro text-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q3-pro-t2v"
+    },
+    {
+      "id": "vidu-q2-template2video",
+      "name": "vidu-q2-template2video",
+      "displayName": "VIDU Q2 Template to Video",
+      "description": "Create template-driven videos with Vidu Q2 template-to-video workflows.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Template-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-template2video"
+    },
+    {
+      "id": "vidu-q2-pro-fast-img2video",
+      "name": "vidu-q2-pro-fast-img2video",
+      "displayName": "VIDU Q2 Pro Fast Image to Video",
+      "description": "Turn images into videos faster with Vidu Q2 Pro Fast image-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-pro-fast-img2video"
+    },
+    {
+      "id": "vidu-q2-pro-fast-startend2video",
+      "name": "vidu-q2-pro-fast-startend2video",
+      "displayName": "VIDU Q2 Pro Fast Start-End Frame to Video",
+      "description": "Generate faster start-end-frame transitions with Vidu Q2 Pro Fast.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Start-End Frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-pro-fast-startend2video"
+    },
+    {
+      "id": "vidu-q2-pro-img2video",
+      "name": "vidu-q2-pro-img2video",
+      "displayName": "VIDU Q2 Pro Image to Video",
+      "description": "Animate images with Vidu Q2 Pro for higher-quality image-to-video output.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-pro-img2video"
+    },
+    {
+      "id": "vidu-q2-pro-multiframe",
+      "name": "vidu-q2-pro-multiframe",
+      "displayName": "VIDU Q2 Pro Multi-frame to Video",
+      "description": "Use multiple input frames to guide Vidu Q2 Pro video generation.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Multi-frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-pro-multiframe"
+    },
+    {
+      "id": "vidu-q2-pro-startend2video",
+      "name": "vidu-q2-pro-startend2video",
+      "displayName": "VIDU Q2 Pro Start-End Frame to Video",
+      "description": "Guide Vidu Q2 Pro motion between a start frame and an end frame.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Start-End Frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-pro-startend2video"
+    },
+    {
+      "id": "vidu-q2-reference2video",
+      "name": "vidu-q2-reference2video",
+      "displayName": "VIDU Q2 Reference Image to Video",
+      "description": "Generate videos from reference images while preserving subject and scene consistency.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Reference-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-reference2video"
+    },
+    {
+      "id": "vidu-q2-text2video",
+      "name": "vidu-q2-text2video",
+      "displayName": "VIDU Q2 Text to Video",
+      "description": "Create Vidu Q2 videos directly from text prompts.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-text2video"
+    },
+    {
+      "id": "vidu-q2-turbo-img2video",
+      "name": "vidu-q2-turbo-img2video",
+      "displayName": "VIDU Q2 Turbo Image to Video",
+      "description": "Animate images quickly with Vidu Q2 Turbo image-to-video.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-turbo-img2video"
+    },
+    {
+      "id": "vidu-q2-turbo-multiframe",
+      "name": "vidu-q2-turbo-multiframe",
+      "displayName": "VIDU Q2 Turbo Multi-frame to Video",
+      "description": "Use multiple frames to guide fast Vidu Q2 Turbo video generation.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Multi-frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-turbo-multiframe"
+    },
+    {
+      "id": "vidu-q2-turbo-startend2video",
+      "name": "vidu-q2-turbo-startend2video",
+      "displayName": "VIDU Q2 Turbo Start-End Frame to Video",
+      "description": "Generate fast Vidu Q2 Turbo transitions from start and end frames.",
+      "series": "Vidu",
+      "tags": [
+        "Video Generation",
+        "Start-End Frame to Video"
+      ],
+      "infos": [],
+      "link": "/models/vidu/vidu-q2-turbo-startend2video"
+    }
+  ]
+}

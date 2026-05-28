@@ -1,0 +1,133 @@
+{
+  "seriesSlug": "glm",
+  "heroTitle": "GLM AI Models",
+  "heroDescription": "Explore GLM image and audio models on Novita AI for text-to-image generation, text-to-speech, voice cloning, and speech-to-text transcription.",
+  "seoTitle": "GLM AI Models | Novita AI",
+  "seoDescription": "Explore GLM AI models on Novita AI. Compare GLM image generation, text-to-speech, voice cloning, and audio-to-text model pages for API integration.",
+  "eyebrow": "Image & Audio Generation",
+  "overviewTitle": "What are GLM AI models?",
+  "overviewBody": [
+    "GLM is a model family from Z.AI covering image generation, speech synthesis, speech recognition, and broader language and vision-language models.",
+    "On Novita AI, this collection focuses on the currently enabled GLM multimodal APIs: GLM Image Generation, GLM Text to Speech, GLM Voice Clone, and GLM Audio to Text.",
+    "Use this page to compare GLM generation and audio endpoints, then open a dedicated model page to review API behavior, pricing, and Playground access."
+  ],
+  "lineupSections": [
+    {
+      "title": "GLM image generation",
+      "description": "GLM Image Generation supports prompt-following image creation for structured layouts, posters, diagrams, and text-rich visuals.",
+      "items": [
+        "Use GLM Image Generation for posters, diagrams, social graphics, and knowledge-heavy visuals.",
+        "Official Z.AI docs describe GLM-Image as a hybrid autoregressive plus diffusion-decoder architecture.",
+        "Open the model page to confirm Novita-specific request parameters, supported sizes, and pricing."
+      ],
+      "modelNames": [
+        "glm-image"
+      ]
+    },
+    {
+      "title": "GLM speech generation",
+      "description": "GLM audio generation models cover direct text-to-speech and sample-based voice cloning for custom voice workflows.",
+      "items": [
+        "Use GLM Text to Speech for natural speech generation with voice, speed, volume, and output-format controls.",
+        "Use GLM Voice Clone when a sample audio clip should define the target voice timbre."
+      ],
+      "modelNames": [
+        "glm-tts",
+        "glm-tts-clone"
+      ]
+    },
+    {
+      "title": "GLM speech recognition",
+      "description": "GLM Audio to Text uses GLM ASR for multilingual speech transcription and hotword-guided recognition.",
+      "items": [
+        "Use GLM Audio to Text for transcription, meeting notes, captions, and voice-input workflows.",
+        "Novita supports audio input with prompt context and hotword guidance."
+      ],
+      "modelNames": [
+        "glm-asr"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What GLM models are available on Novita AI?",
+      "answer": "The current GLM collection includes GLM Image Generation, GLM Text to Speech, GLM Voice Clone, and GLM Audio to Text."
+    },
+    {
+      "question": "Which GLM model should I use for speech workflows?",
+      "answer": "Use GLM Text to Speech to synthesize speech from text, GLM Voice Clone to create speech with a specified voice timbre from sample audio, and GLM Audio to Text to transcribe audio into text."
+    },
+    {
+      "question": "Are GLM language models part of this collection?",
+      "answer": "This collection follows the enabled multimodal GLM configuration and focuses on image and audio models rather than GLM language or vision-language chat models."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://docs.z.ai/guides/image/glm-image",
+      "https://huggingface.co/zai-org/GLM-Image",
+      "https://docs.z.ai/guides/audio/glm-asr-2512"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true",
+      "https://novita.ai/docs/api-reference/model-apis-glm-image",
+      "https://novita.ai/docs/api-reference/model-apis-glm-tts",
+      "https://novita.ai/docs/api-reference/model-apis-glm-tts-voice-clone",
+      "https://novita.ai/docs/api-reference/model-apis-glm-asr"
+    ]
+  },
+  "models": [
+    {
+      "id": "glm-image",
+      "name": "glm-image",
+      "displayName": "GLM Image Generation",
+      "description": "Generate images with GLM Image for prompt-following, text-rich graphics, posters, diagrams, and structured visual layouts.",
+      "series": "Glm",
+      "tags": [
+        "Image Generation",
+        "Text-to-Image"
+      ],
+      "infos": [],
+      "link": "/models/glm/glm-image"
+    },
+    {
+      "id": "glm-tts-clone",
+      "name": "glm-tts-clone",
+      "displayName": "GLM Voice Clone",
+      "description": "Create speech with a specified voice timbre from sample audio and target text using GLM voice cloning.",
+      "series": "Glm",
+      "tags": [
+        "Audio Generation",
+        "Voice Cloning"
+      ],
+      "infos": [],
+      "link": "/models/glm/glm-tts-clone"
+    },
+    {
+      "id": "glm-asr",
+      "name": "glm-asr",
+      "displayName": "GLM Audio to Text",
+      "description": "Transcribe audio into text with GLM ASR, supporting multilingual transcription and hotword guidance.",
+      "series": "Glm",
+      "tags": [
+        "Audio Recognition",
+        "Speech-to-Text"
+      ],
+      "infos": [],
+      "link": "/models/glm/glm-asr"
+    },
+    {
+      "id": "glm-tts",
+      "name": "glm-tts",
+      "displayName": "GLM Text to Speech",
+      "description": "Convert text into natural speech with GLM TTS, including voice, speed, volume, and output-format controls.",
+      "series": "Glm",
+      "tags": [
+        "Audio Generation",
+        "Text-to-Speech"
+      ],
+      "infos": [],
+      "link": "/models/glm/glm-tts"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "seriesSlug": "z-image",
+  "heroTitle": "Z Image Models",
+  "heroDescription": "Explore Tongyi-MAI Z Image text-to-image models on Novita AI, including fast Z Image Turbo generation and LoRA-assisted custom image workflows.",
+  "seoTitle": "Z Image Models | Novita AI",
+  "seoDescription": "Explore Z Image models on Novita AI. Compare Z Image Turbo and Z Image Turbo LoRA text-to-image model pages for API integration.",
+  "eyebrow": "Image Generation",
+  "overviewTitle": "What are Z Image models?",
+  "overviewBody": [
+    "Z-Image is an efficient image generation family from Tongyi-MAI, built around a 6B single-stream diffusion Transformer design.",
+    "Z-Image-Turbo is the fast distilled variant, designed for low-step text-to-image generation with strong photorealism, bilingual text rendering, and prompt adherence.",
+    "On Novita AI, this collection groups the available Z Image Turbo APIs, including the base Turbo endpoint and the LoRA-enabled endpoint."
+  ],
+  "lineupSections": [
+    {
+      "title": "Z Image Turbo",
+      "description": "Z Image Turbo is the fast text-to-image model for photorealistic generation, bilingual prompts, and low-latency image creation.",
+      "items": [
+        "Use Z Image Turbo for fast prompt-to-image generation and interactive creative iteration.",
+        "The Hugging Face model card and paper describe the Turbo variant as an 8-step distilled model."
+      ],
+      "modelNames": [
+        "z-image-turbo"
+      ]
+    },
+    {
+      "title": "Z Image Turbo LoRA",
+      "description": "Z Image Turbo LoRA adds custom LoRA-weight support on top of the Turbo text-to-image workflow.",
+      "items": [
+        "Use Z Image Turbo LoRA when generation should follow a custom style, product, character, or visual identity encoded in LoRA weights.",
+        "Official Tongyi-MAI Z-Image sources describe the base Turbo model; the LoRA API behavior is Novita-specific."
+      ],
+      "modelNames": [
+        "z-image-turbo-lora"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Who developed Z Image?",
+      "answer": "Z-Image is from Tongyi-MAI/Alibaba, not Z.AI. The official Hugging Face model card lists Tongyi-MAI/Z-Image-Turbo."
+    },
+    {
+      "question": "What is Z Image Turbo best for?",
+      "answer": "Z Image Turbo is best for fast text-to-image generation, photorealistic outputs, bilingual English/Chinese text rendering, and interactive image workflows."
+    },
+    {
+      "question": "What is the difference between Z Image Turbo and Z Image Turbo LoRA?",
+      "answer": "Z Image Turbo is the base fast text-to-image endpoint. Z Image Turbo LoRA adds support for applying custom LoRA weights through Novita's API."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "https://arxiv.org/abs/2511.22699"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true",
+      "https://novita.ai/docs/api-reference/model-apis-z-image-turbo-lora"
+    ],
+    "reference": [
+      "https://wavespeed.ai/models/wavespeed-ai/z-image/turbo"
+    ]
+  },
+  "models": [
+    {
+      "id": "z-image-turbo-lora",
+      "name": "z-image-turbo-lora",
+      "displayName": "Z Image Turbo LoRA",
+      "description": "Generate images with Z Image Turbo while applying custom LoRA weights for style, subject, or brand-specific control.",
+      "series": "Z Image",
+      "tags": [
+        "Image Generation",
+        "Text-to-Image",
+        "LoRA"
+      ],
+      "infos": [],
+      "link": "/models/z-image/z-image-turbo-lora"
+    },
+    {
+      "id": "z-image-turbo",
+      "name": "z-image-turbo",
+      "displayName": "Z Image Turbo",
+      "description": "Generate photorealistic images quickly with Z Image Turbo, a 6B text-to-image model optimized for low-step inference.",
+      "series": "Z Image",
+      "tags": [
+        "Image Generation",
+        "Text-to-Image"
+      ],
+      "infos": [],
+      "link": "/models/z-image/z-image-turbo"
+    }
+  ]
+}

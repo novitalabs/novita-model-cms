@@ -1,0 +1,117 @@
+{
+  "seriesSlug": "image-tools",
+  "heroTitle": "Image Tools",
+  "heroDescription": "Edit images with Novita AI tools for background removal, object erasing, and image upscaling through production-ready APIs.",
+  "seoTitle": "Image Tools | Novita AI",
+  "seoDescription": "Explore Novita AI image tools for background removal, image erasing, and image upscaling. Compare API-ready image editing tools and open each model page for integration details.",
+  "eyebrow": "Image Editing",
+  "overviewTitle": "What are Image Tools?",
+  "overviewBody": [
+    "Image Tools is Novita AI's collection of API-ready image editing utilities. Instead of representing one external model family, this collection groups practical image-to-image tools for common production workflows such as removing backgrounds, erasing unwanted regions, and improving image resolution.",
+    "Use this collection when the goal is not open-ended image generation, but a specific editing operation that can be integrated into product pipelines, creative automation, ecommerce workflows, or asset cleanup systems.",
+    "Each card links to a dedicated model page where developers can review the API behavior, pricing signals, and Playground entry point before implementation."
+  ],
+  "lineupSections": [
+    {
+      "title": "Background editing",
+      "description": "Tools for isolating subjects and removing backgrounds from source images.",
+      "items": [
+        "Use Image Remove Background when the main task is subject cutout or background isolation.",
+        "Useful for product imagery, profile assets, marketplace listings, and creative asset preparation."
+      ],
+      "modelNames": [
+        "image-remove-background"
+      ]
+    },
+    {
+      "title": "Object removal and cleanup",
+      "description": "Tools for removing unwanted visual regions from an image.",
+      "items": [
+        "Use Image Eraser when a selected object, mark, or distracting region needs to be removed.",
+        "Best suited for targeted cleanup instead of regenerating the entire image."
+      ],
+      "modelNames": [
+        "image-eraser"
+      ]
+    },
+    {
+      "title": "Image enhancement",
+      "description": "Tools for improving resolution and visual detail.",
+      "items": [
+        "Use Image Upscaler when the input image needs higher resolution or clearer detail.",
+        "Useful for preparing generated or uploaded assets for larger displays, catalogs, and production use."
+      ],
+      "modelNames": [
+        "image-upscaler"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are Image Tools a single model family?",
+      "answer": "No. In Novita AI's current model configuration, Image Tools is a collection of image editing utilities rather than one external model family."
+    },
+    {
+      "question": "Which Image Tools are currently available on Novita AI?",
+      "answer": "The current Image Tools collection includes Image Remove Background, Image Eraser, and Image Upscaler."
+    },
+    {
+      "question": "How are Image Tools different from text-to-image models?",
+      "answer": "Text-to-image models generate new images from prompts. Image Tools operate on existing images for specific editing tasks such as background removal, object erasing, or upscaling."
+    }
+  ],
+  "sourceUrls": {
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true",
+      "https://novita.ai/docs/api-reference/model-apis-image-remove-background",
+      "https://novita.ai/docs/api-reference/model-apis-image-upscaler",
+      "https://novita.ai/docs/api-reference/model-apis-image-eraser"
+    ],
+    "reference": [
+      "https://wavespeed.ai/collections/image-editor",
+      "https://wavespeed.ai/collections/image-upscale",
+      "https://wavespeed.ai/collections/remove-anything"
+    ]
+  },
+  "models": [
+    {
+      "id": "image-remove-background",
+      "name": "image-remove-background",
+      "displayName": "Image Remove Background",
+      "description": "Remove backgrounds from source images for clean subject cutouts and production-ready visual assets.",
+      "series": "Image tools",
+      "tags": [
+        "Image-to-Image",
+        "Background Removal"
+      ],
+      "infos": [],
+      "link": "/models/image-tools/image-remove-background"
+    },
+    {
+      "id": "image-upscaler",
+      "name": "image-upscaler",
+      "displayName": "Image Upscaler",
+      "description": "Upscale images to improve resolution and visual detail for larger-format or higher-quality outputs.",
+      "series": "Image tools",
+      "tags": [
+        "Image-to-Image",
+        "Image Upscaling"
+      ],
+      "infos": [],
+      "link": "/models/image-tools/image-upscaler"
+    },
+    {
+      "id": "image-eraser",
+      "name": "image-eraser",
+      "displayName": "Image Eraser",
+      "description": "Erase unwanted objects or regions from an image while preserving the surrounding visual context.",
+      "series": "Image tools",
+      "tags": [
+        "Image-to-Image",
+        "Object Removal"
+      ],
+      "infos": [],
+      "link": "/models/image-tools/image-eraser"
+    }
+  ]
+}

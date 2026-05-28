@@ -1,0 +1,78 @@
+{
+  "seriesSlug": "seedance",
+  "heroTitle": "Seedance AI Models",
+  "heroDescription": "Explore ByteDance Seedance video generation models on Novita AI for text-to-video and image-to-video workflows with cinematic motion and prompt following.",
+  "seoTitle": "Seedance AI Models | Novita AI",
+  "seoDescription": "Explore Seedance AI models on Novita AI. Compare Seedance 1.5 Pro text-to-video and image-to-video model pages for API integration.",
+  "eyebrow": "Video Generation",
+  "overviewTitle": "What are Seedance AI models?",
+  "overviewBody": [
+    "Seedance is ByteDance Seed's video generation model family for creating short videos from text prompts and source images. Public Seedance material emphasizes cinematic motion, prompt adherence, multi-shot storytelling, subject consistency, and high-quality visual dynamics.",
+    "On Novita AI, this collection organizes enabled Seedance variants into text-to-video and image-to-video entry points. Open each model page to confirm supported parameters, pricing, and Playground behavior before integrating it into production."
+  ],
+  "lineupSections": [
+    {
+      "title": "Seedance 1.5 Pro",
+      "description": "Seedance 1.5 Pro appears in Novita's model lineup as the enabled Seedance Pro tier for text-to-video and image-to-video generation.",
+      "items": [
+        "Use the text-to-video variant when the starting point is a written prompt.",
+        "Use the image-to-video variant when preserving or animating a source image is required.",
+        "Confirm audio, duration, resolution, and frame options on the model page because public model-family pages do not fully define all Novita API parameters."
+      ],
+      "modelNames": [
+        "seedance-1.5-pro-t2v",
+        "seedance-1.5-pro-i2v"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Seedance used for?",
+      "answer": "Seedance is used for AI video generation, including text-to-video and image-to-video workflows. Official Seedance material highlights prompt following, cinematic motion, multi-shot generation, and visual consistency."
+    },
+    {
+      "question": "What is the difference between Seedance text-to-video and image-to-video?",
+      "answer": "Text-to-video starts from a written prompt. Image-to-video starts from a source image and generates motion while preserving the visual subject and scene."
+    }
+  ],
+  "sourceUrls": {
+    "official": [
+      "https://seed.bytedance.com/en/seedance",
+      "https://arxiv.org/abs/2506.09113"
+    ],
+    "novita": [
+      "https://api-server.novita.ai/v1/product/multimodal-model/list?returnSchema=true"
+    ],
+    "reference": [
+      "https://wavespeed.ai/collections/seedance"
+    ]
+  },
+  "models": [
+    {
+      "id": "seedance-1.5-pro-i2v",
+      "name": "seedance-1.5-pro-i2v",
+      "displayName": "Seedance 1.5 Pro Image To Video",
+      "description": "Animate source images into videos with Seedance 1.5 Pro image-to-video generation.",
+      "series": "Seedance",
+      "tags": [
+        "Video Generation",
+        "Image-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/seedance/seedance-1.5-pro-i2v"
+    },
+    {
+      "id": "seedance-1.5-pro-t2v",
+      "name": "seedance-1.5-pro-t2v",
+      "displayName": "Seedance 1.5 Pro Text To Video",
+      "description": "Generate videos from text prompts with Seedance 1.5 Pro text-to-video generation.",
+      "series": "Seedance",
+      "tags": [
+        "Video Generation",
+        "Text-to-Video"
+      ],
+      "infos": [],
+      "link": "/models/seedance/seedance-1.5-pro-t2v"
+    }
+  ]
+}
